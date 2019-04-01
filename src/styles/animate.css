@@ -1,0 +1,8 @@
+@keyframes planetAnim {
+    50% {
+      -webkit-transform: translate(0, 10px);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+    }
+}

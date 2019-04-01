@@ -1,0 +1,58 @@
+.home-container {
+    max-width: 960px;
+    _width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    min-width: 936px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-container .planet {
+    position: absolute;
+    width: 500px;
+    height: 430px;
+    left: 215px;
+    top: 20px;
+    animation: planetAnim 3s infinite ease both;
+    background: transparent url('../../assets/images/home/home_xingqiu.svg') no-repeat;
+}
+
+.home-container .orbit {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    left: 91px;
+    top: 170px;
+    background: transparent url('../../assets/images/home/home_guidao.svg') no-repeat;
+}
+
+.home-container .flyingsaucer {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 400px;
+    top: -9px;
+    background: transparent url('../../assets/images/home/home_feidie.svg') no-repeat;
+}
+
+.home-container .satellite {
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    left: 60px;
+    top: 150px;
+    background: transparent url('../../assets/images/home/home_weixing.svg') no-repeat;
+}
+
+.home-container .spaceship {
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 240px;
+    top: 5px;
+    background: transparent url('../../assets/images/home/home_huojian.svg') no-repeat;
+}

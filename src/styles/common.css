@@ -1,0 +1,7 @@
+html body {
+    min-width: 960px;
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: 400;
+    color: #acb2bb;
+    background: #111926;
+}

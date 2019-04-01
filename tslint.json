@@ -1,0 +1,11 @@
+{
+  "extends": ["tslint-config-alloy"],
+  "linterOptions": {
+      "exclude": ["**/node_modules/**"]
+  },
+  "rules": {
+      "indent": [true, "spaces", 2],
+      "no-non-null-assertion": false,
+      "no-magic-numbers": false
+  }
+}
